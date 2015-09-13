@@ -1,0 +1,33 @@
+{
+  "name": "git-fs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcblw/gist-fs.git"
+  },
+  "author": "Jacob Lowe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcblw/gist-fs/issues"
+  },
+  "homepage": "https://github.com/jcblw/gist-fs#readme",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "git-tools": "^0.2.1",
+    "install": "^0.1.8",
+    "npm": "^2.14.2",
+    "request": "^2.61.0",
+    "request-promise": "^0.4.3",
+    "tildify": "^1.1.0",
+    "untildify": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
