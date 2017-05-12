@@ -18,16 +18,16 @@
   },
   "homepage": "https://github.com/jcblw/gist-fs#readme",
   "dependencies": {
-    "bluebird": "^2.9.34",
+    "bluebird": "^3.5.0",
     "git-tools": "^0.2.1",
-    "install": "^0.1.8",
-    "npm": "^2.14.2",
+    "install": "^0.10.1",
+    "npm": "^4.5.0",
     "request": "^2.61.0",
-    "request-promise": "^0.4.3",
+    "request-promise": "^4.2.1",
     "tildify": "^1.1.0",
-    "untildify": "^2.1.0"
+    "untildify": "^3.0.2"
   },
   "devDependencies": {
-    "babel": "^5.8.23"
+    "babel": "^6.23.0"
   }
 }
